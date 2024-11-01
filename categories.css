@@ -1,0 +1,43 @@
+#categories {
+	margin: 15px 0 5px;
+}
+* html #categories {height: 1%;}
+#categories:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#categories .column {
+	float: left;
+	width: 175px;
+	margin-right: 5px;
+}
+#categories li {
+	list-style: none;
+	line-height: 17px;
+}
+#categories li ul {
+	margin: 2px 0 10px;
+}
+#categories li li {
+	font-size: 1em;
+	background: url(i/arrow.gif) 9px 7px no-repeat;
+	padding: 0 0 0 19px;
+}
+#categories li div {
+	padding: 3px 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 2px solid #EEE;
+}
+#categories li li ul {
+	margin: 2px 0 2px -7px;
+}
+#categories li li a {
+	color: #808080;
+}
+#categories li li a:hover {
+	color: #AA0001;
+}
